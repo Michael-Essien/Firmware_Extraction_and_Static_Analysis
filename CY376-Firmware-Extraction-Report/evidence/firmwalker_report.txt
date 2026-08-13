@@ -1,0 +1,308 @@
+***Firmware Directory***
+/home/kali/firmware/_firmware.bin.extracted/squashfs-root
+***Search for password files***
+##################################### passwd
+t/etc/passwd
+##################################### shadow
+t/etc/shadow
+##################################### *.psk
+***Search for Unix-MD5 hashes***
+***Search for SSL related files***
+##################################### *.crt
+##################################### *.pem
+##################################### *.cer
+##################################### *.p7b
+##################################### *.p12
+##################################### *.key
+***Search for SSH related files***
+##################################### authorized_keys
+##################################### *authorized_keys*
+##################################### host_key
+##################################### *host_key*
+##################################### id_rsa
+##################################### *id_rsa*
+##################################### id_dsa
+##################################### *id_dsa*
+##################################### *.pub
+***Search for files***
+##################################### *.conf
+t/etc/lld2d.conf
+t/etc/host.conf
+t/etc/resolv.conf
+t/etc/nsswitch.conf
+t/web/oem/model.conf
+##################################### *.cfg
+##################################### *.ini
+***Search for database related files***
+##################################### *.db
+##################################### *.sqlite
+##################################### *.sqlite3
+***Search for shell scripts***
+##################################### shell scripts
+***Search for other .bin files***
+##################################### bin files
+***Search for patterns in files***
+-------------------- upgrade --------------------
+t/usr/sbin/samba_multicall
+t/usr/bin/httpd
+t/usr/bin/uclited
+t/sbin/wpa_supplicant
+t/sbin/hostapd
+t/web/help/SysRebootHelpRpm.htm
+t/web/help/SoftwareUpgradeHelpRpm.htm
+t/web/userRpm/SoftwareUpgradeRpm.htm
+t/web/userRpm/UpdateTemp.htm
+t/web/userRpm/Index.htm
+t/web/localiztion/str_menu.js
+t/web/localiztion/str_err.js
+-------------------- admin --------------------
+t/usr/sbin/samba_multicall
+t/usr/bin/httpd
+t/usr/bin/uclited
+t/etc/services
+t/web/help/RestoreDefaultCfgHelpRpm.htm
+t/web/userRpm/AccessDenied.htm
+t/lib/libexec/xtables/libipt_REJECT.so
+-------------------- root --------------------
+t/firmwalker.txt
+t/usr/sbin/radvd
+t/usr/sbin/pppd
+t/usr/sbin/samba_multicall
+t/usr/sbin/dnsproxy
+t/usr/sbin/ip
+t/usr/bin/dropbear
+t/usr/bin/scp
+t/usr/bin/httpd
+t/usr/bin/vsftpd
+t/usr/bin/dropbearkey
+t/usr/bin/uclited
+t/sbin/wpa_supplicant
+t/sbin/tc
+t/sbin/hostapd
+t/bin/ntfs-3g
+t/bin/busybox
+t/bin/minidlnad
+t/etc/group
+t/etc/shadow
+t/web/help/StatusHelpRpm.htm
+t/web/help/WlanNetworkHelpRpm.htm
+t/web/help/WlanNetworkHelpRpm_5g.htm
+t/lib/modules/2.6.31/nas/usbcore.ko
+t/lib/modules/2.6.31/nas/fat.ko
+t/lib/libavutil.so.51.54.100
+t/lib/libavformat.so.54.6.100
+t/lib/libip6tc.so.0.0.0
+t/lib/libsqlite3.so.0.8.6
+t/lib/libip4tc.so.0.0.0
+-------------------- password --------------------
+t/firmwalker.txt
+t/usr/sbin/bpalogin
+t/usr/sbin/xl2tpd
+t/usr/sbin/pppd
+t/usr/sbin/samba_multicall
+t/usr/bin/dropbear
+t/usr/bin/scp
+t/usr/bin/httpd
+t/usr/bin/vsftpd
+t/usr/bin/dropbearkey
+t/usr/bin/uclited
+t/sbin/wpa_supplicant
+t/sbin/hostapd
+t/bin/busybox
+t/etc/wpa2/hostapd.eap_user
+t/web/help/WanDynamicIpV6CfgHelpRpm.htm
+t/web/help/WanSlaacCfgHelpRpm.htm
+t/web/help/BpaCfgHelpRpm.htm
+t/web/help/WzdL2TPHelpRpm.htm
+t/web/help/DdnsAddComexeHelpRpm.htm
+t/web/help/PPPoEv6CfgHelpRpm.htm
+t/web/help/PptpCfgHelpRpm.htm
+t/web/help/WzdWanTypeHelpRpm.htm
+t/web/help/PPPoECfgHelpRpm.htm
+t/web/help/ChangeLoginPwdHelpRpm.htm
+t/web/help/WzdPPTPHelpRpm.htm
+t/web/help/WanStaticIpCfgHelpRpm.htm
+t/web/help/AutoEmailHelpRpm.htm
+t/web/help/NoipDdnsHelpRpm.htm
+t/web/help/DynDdnsHelpRpm.htm
+t/web/help/GuestNetUsbCfgHelpRpm.htm
+t/web/help/RestoreDefaultCfgHelpRpm.htm
+t/web/help/ManageControlHelpRpm.htm
+t/web/help/WlanSecurityHelpRpm.htm
+t/web/help/Wan6to4TunnelCfgHelpRpm.htm
+t/web/help/WanStaticIpV6CfgHelpRpm.htm
+t/web/help/WanDynamicIpCfgHelpRpm.htm
+t/web/help/NasFolderSharingHelpRpm.htm
+t/web/help/LocalManageControlHelpRpm.htm
+t/web/help/WlanNetworkHelpRpm.htm
+t/web/help/WzdWlanHelpRpm.htm
+t/web/help/WzdWlanHelpRpm_5g.htm
+t/web/help/WlanNetworkHelpRpm_5g.htm
+t/web/help/WzdPPPoEHelpRpm.htm
+t/web/help/L2tpCfgHelpRpm.htm
+t/web/help/NasFolderAdvHelpRpm.htm
+t/web/help/LanIpv6CfgHelpRpm.htm
+t/web/userRpm/WzdWlanRpm.htm
+t/web/userRpm/CmxDdnsRpm.htm
+t/web/userRpm/WlanSecurityRpm_5g.htm
+t/web/userRpm/WzdPPTPRpm.htm
+t/web/userRpm/WzdL2TPRpm.htm
+t/web/userRpm/WzdPPPoERpm.htm
+t/web/userRpm/PPPoEv6CfgRpm.htm
+t/web/userRpm/NasFolderSharingRpm.htm
+t/web/userRpm/PPPoECfgRpm.htm
+t/web/userRpm/DynDdnsRpm.htm
+t/web/userRpm/WlanNetworkRpm_5g.htm
+t/web/userRpm/WlanSecurityRpm.htm
+t/web/userRpm/NoipDdnsRpm.htm
+t/web/userRpm/WzdWlanRpm_5g.htm
+t/web/userRpm/PPTPCfgRpm.htm
+t/web/userRpm/WzdWanTypeRpm.htm
+t/web/userRpm/AccessDenied.htm
+t/web/userRpm/GuestNetWirelessCfgRpm.htm
+t/web/userRpm/MailResultRpm.htm
+t/web/userRpm/BPACfgRpm.htm
+t/web/userRpm/LoginRpm.htm
+t/web/userRpm/WlanNetworkRpm.htm
+t/web/userRpm/ChangeLoginPwdRpm.htm
+t/web/userRpm/AutoEmailRpm.htm
+t/web/userRpm/L2TPCfgRpm.htm
+t/web/localiztion/str_menu.js
+t/web/localiztion/str_err.js
+t/lib/libuClibc-0.9.30.so
+-------------------- passwd --------------------
+t/usr/sbin/pppd
+t/usr/sbin/samba_multicall
+t/usr/bin/httpd
+t/usr/bin/vsftpd
+t/usr/bin/uclited
+t/etc/services
+t/etc/nsswitch.conf
+t/lib/libuClibc-0.9.30.so
+-------------------- pwd --------------------
+t/usr/sbin/samba_multicall
+t/usr/bin/vsftpd
+t/usr/bin/uclited
+t/sbin/hostapd
+t/web/userRpm/WzdWlanRpm.htm
+t/web/userRpm/CmxDdnsRpm.htm
+t/web/userRpm/WlanSecurityRpm_5g.htm
+t/web/userRpm/DynDdnsRpm.htm
+t/web/userRpm/WlanSecurityRpm.htm
+t/web/userRpm/NoipDdnsRpm.htm
+t/web/userRpm/WzdWlanRpm_5g.htm
+t/web/userRpm/BPACfgRpm.htm
+t/lib/libntfs-3g.so.83.0.0
+t/lib/libuClibc-0.9.30.so
+-------------------- dropbear --------------------
+t/usr/bin/dropbear
+t/usr/bin/scp
+t/usr/bin/httpd
+t/usr/bin/dropbearkey
+-------------------- ssl --------------------
+t/usr/sbin/samba_multicall
+t/usr/bin/httpd
+t/usr/bin/vsftpd
+t/usr/bin/uclited
+t/sbin/wpa_supplicant
+-------------------- private key --------------------
+t/usr/bin/dropbear
+t/usr/bin/scp
+t/usr/bin/dropbearkey
+t/sbin/wpa_supplicant
+t/sbin/hostapd
+-------------------- telnet --------------------
+t/etc/services
+t/web/userRpm/AccessCtrlAccessTargetsAdvRpm.htm
+t/web/userRpm/AccessCtrlAccessRuleModifyRpm.htm
+t/web/userRpm/WzdAccessCtrlTargetAddRpm.htm
+t/web/userRpm/VirtualServerAdvRpm.htm
+-------------------- secret --------------------
+t/usr/sbin/xl2tpd
+t/usr/sbin/dhcp6c
+t/usr/sbin/pppd
+t/usr/sbin/samba_multicall
+t/usr/sbin/dhcp6s
+t/usr/bin/dropbear
+t/usr/bin/scp
+t/usr/bin/dropbearkey
+t/sbin/hostapd
+t/web/userRpm/GuestNetWirelessCfgRpm.htm
+t/lib/libavformat.so.54.6.100
+-------------------- pgp --------------------
+t/usr/bin/uclited
+t/lib/libiconv.so.2.5.1
+-------------------- gpg --------------------
+t/lib/modules/2.6.31/net/umac.ko
+t/lib/libiconv.so.2.5.1
+-------------------- token --------------------
+t/usr/sbin/radvd
+t/usr/sbin/pppd
+t/usr/sbin/samba_multicall
+t/usr/bin/httpd
+t/sbin/wpa_supplicant
+t/sbin/iwlist
+t/sbin/tc
+t/sbin/hostapd
+t/bin/busybox
+t/lib/libntfs-3g.so.83.0.0
+t/lib/libsqlite3.so.0.8.6
+-------------------- api key --------------------
+-------------------- oauth --------------------
+***Search for web servers***
+##################################### search for web servers
+##################################### apache
+##################################### lighttpd
+##################################### alphapd
+##################################### httpd
+t/usr/bin/httpd
+***Search for important binaries***
+##################################### important binaries
+##################################### ssh
+##################################### sshd
+##################################### scp
+t/usr/bin/scp
+##################################### sftp
+##################################### tftp
+t/usr/bin/tftp
+##################################### dropbear
+t/usr/bin/dropbear
+##################################### busybox
+t/bin/busybox
+##################################### telnet
+##################################### telnetd
+##################################### openssl
+***Search for ip addresses***
+##################################### ip addresses
+0.0.0.0
+127.0.0.1
+192.168.0.1
+192.168.0.100
+192.168.0.199
+192.168.0.23
+192.168.0.4
+192.168.1.1
+202.96.12.8
+202.96.134.188
+222.88.88.234
+255.0.0.0
+255.255.0.0
+255.255.255.0
+255.255.255.255
+61.145.238.5
+***Search for urls***
+##################################### urls
+http://202.96.12.8:8080
+http://' + address;	
+http://dyn.com
+http://www.comexe.cn
+http://www.comexe.cn');
+http://www.iana.org
+http://www.no-ip.com
+http://www.no-ip.com');
+http://www.oray.net
+http://www.tp-link.com
+http://www.w3.org
+***Search for emails***
+##################################### emails
+A.Ballardie@cs.ucl.ac.uk
