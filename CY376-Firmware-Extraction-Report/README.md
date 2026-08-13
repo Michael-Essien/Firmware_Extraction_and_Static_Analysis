@@ -26,7 +26,7 @@ Presentation deck: [`docs/report/CY376_Presentation.pptx`](docs/report/CY376_Pre
 ## Author
 
 - **Name:** Essien Michael Obimpeh
-- **Index Number:** _[insert your index number]_
+- **Index Number:** FCM.41.018.133.23
 - **Programme:** BSc Cybersecurity, University of Mines and Technology (UMaT), Tarkwa
 
 ## Tools Used
@@ -54,17 +54,7 @@ Screenshots of each step are already captured in `evidence/` (see
 reproduces the same result end to end — the SHA-256 checksum in the report
 confirms it's the same firmware image every time.
 
-### 2. Regenerate the report (optional — only needed if you edit the content)
 
-```bash
-# PDF
-pip install reportlab pillow --break-system-packages
-python3 src/generate_lab_diagram.py
-python3 src/generate_report_pdf.py
-
-# DOCX
-cd src && npm install docx image-size && node generate_report_docx.js
-```
 
 ## Repository Structure
 
